@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body{
+    background-color: #212529;
+}
+
+.gif{
+  margin-top: 146px;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text{
+    color: white;
+    margin: 40px 0;
+}
+
+.controls select{
+    width: 210px;
+    height: 36px;
+    padding-left:12px;
+    border-radius: 8px;
+}
+
+.controls input{
+    width: 210px;
+    height: 36px;
+    padding-left:12px;
+    border-radius: 8px;
+}
+
+.controls button{
+    width: 210px;
+    height: 36px;
+    padding-left:12px;
+    border-radius: 8px;
+    background-color: #198754;
+    border: none;
+    color: white;
+}
+
+.card-big {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Kartalar orasidagi bo'shliq */
+  margin-top: 30px;
+}
+
+.pokemon-card {
+  width: 250px;
+  height: 380px;
+  background-color: yellow;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bull {
+  font-size: 20px;
+}
+
+.id-badge {
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.pokemon-image {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.type {
+  background-color: #C4E4FF;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.weaknesses p {
+  color: #80007C;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: cyan;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.pokemon-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.card{
+  width: 250px;
+  height: 380px;
+  background-color: yellow;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0 20px 0;
+}
